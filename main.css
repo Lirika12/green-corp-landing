@@ -116,7 +116,7 @@ header {
     font-weight: 600;
     margin-bottom: 15px;
   }
-  .form input, .form select{
+  .form input, .form select {
     font-size: 18px;
     color: #213053;
     height: 60px;
@@ -142,18 +142,32 @@ header {
       }
       to {
         transform: rotate(360deg);
-      }
+      }}
   footer{
-    pudding: 90px 20px 90px 20px;
+    padding: 90px 20px;
     font-size: 16px;
     font-weight: 600;
   }
   .footer__container {
     display: flex;
-    align-items:center;
     justify-content:center;
-  }
+ }
   .footer__copyright{
   margin-top: 40px;
   text-align: center;
   opacity: 0.5;}
+  .footer__grourp {
+  margin-right: 80px;
+}
+.footer h3  {
+ opacity:0.7;
+ font-size:16px;
+ margin-bottom:30px;
+}
+.footer__links {
+  display: flex;
+  flex-direction: column;
+}
+.footer__links a {
+ margin-bottom: 15px;
+}
