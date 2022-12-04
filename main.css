@@ -156,7 +156,7 @@ header {
   margin-top: 40px;
   text-align: center;
   opacity: 0.5;}
-  .footer__grourp {
+  .footer__group {
   margin-right: 80px;
 }
 .footer h3  {
@@ -170,4 +170,8 @@ header {
 }
 .footer__links a {
  margin-bottom: 15px;
+}
+.features {
+  background-color: white;
+  padding: 115px, 60px,115px,60px;
 }
